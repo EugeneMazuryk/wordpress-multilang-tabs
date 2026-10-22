@@ -1,0 +1,10 @@
+{
+  "name": "weblorem/weblorem-multilang-tabs",
+  "description": "Multilingual content stored inside a single post/term, with one language tab bar in the editor.",
+  "type": "wordpress-plugin",
+  "license": "proprietary",
+  "require": {
+    "php": ">=8.0",
+    "composer/installers": "^2.1"
+  }
+}
