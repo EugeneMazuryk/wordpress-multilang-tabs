@@ -1,0 +1,310 @@
+# Copyright (C) 2026 WebLorem
+# This file is distributed under the same license as the WebLorem Multilang Tabs plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: WebLorem Multilang Tabs 0.1.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/weblorem-"
+"multilang-tabs\n"
+"POT-Creation-Date: 2026-10-21T11:51:19+00:00\n"
+"PO-Revision-Date: 2026-10-21 12:00+0000\n"
+"Last-Translator: WebLorem\n"
+"Language-Team: Ukrainian\n"
+"Language: uk\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: WP-CLI 2.12.0\n"
+"X-Domain: weblorem-multilang-tabs\n"
+
+#. Plugin Name of the plugin
+#: weblorem-multilang-tabs.php:3 src/Admin/SettingsPage.php:21
+#: src/Admin/SettingsPage.php:22
+msgid "WebLorem Multilang Tabs"
+msgstr "WebLorem Multilang Tabs"
+
+#. Description of the plugin
+#: weblorem-multilang-tabs.php:4
+msgid ""
+"Multilingual content stored inside a single post/term, with "
+"one language tab bar in the editor."
+msgstr ""
+"Багатомовний контент в одному записі/терміні з єдиною "
+"панеллю вкладок мов у редакторі."
+
+#. Author of the plugin
+#: weblorem-multilang-tabs.php:8
+msgid "WebLorem"
+msgstr "WebLorem"
+
+#: src/Admin/ImportExport.php:65
+msgid "Choose a JSON file exported by this plugin."
+msgstr "Виберіть JSON-файл, експортований цим плагіном."
+
+#: src/Admin/ImportExport.php:71
+msgid "The file is not valid JSON."
+msgstr "Файл не є коректним JSON."
+
+#. translators: 1: dry run prefix, 2: keys, 3: posts, 4: terms, 5: menu items, 6: options, 7: not found
+#: src/Admin/ImportExport.php:85
+#, php-format
+msgid ""
+"%1$s%2$d keys: %3$d posts, %4$d terms, %5$d menu items, %6$d options. Not "
+"found on this site: %7$d."
+msgstr ""
+"%1$s%2$d ключів: записів %3$d, термінів %4$d, пунктів меню %5$d, опцій %6$d. "
+"Не знайдено на цьому сайті: %7$d."
+
+#: src/Admin/ImportExport.php:86
+msgid "[Dry run] "
+msgstr "[Пробний запуск] "
+
+#: src/Admin/ImportExport.php:106
+msgid "You are not allowed to do this."
+msgstr "У вас немає прав на цю дію."
+
+#: src/Admin/SettingsPage.php:58
+msgid "Languages"
+msgstr "Мови"
+
+#: src/Admin/SettingsPage.php:59
+msgid ""
+"The default language has no URL prefix (/page/); the others do (/en/page/). "
+"The order here is the order of the editor tabs."
+msgstr ""
+"Мова за замовчуванням без префікса в URL (/page/), решта з префіксом (/en/"
+"page/). Порядок тут задає порядок вкладок у редакторі."
+
+#: src/Admin/SettingsPage.php:64
+msgid "Default"
+msgstr "За замовчуванням"
+
+#: src/Admin/SettingsPage.php:65
+msgid "Code (URL)"
+msgstr "Код (URL)"
+
+#: src/Admin/SettingsPage.php:66
+msgid "Name"
+msgstr "Назва"
+
+#: src/Admin/SettingsPage.php:67
+msgid "Locale"
+msgstr "Локаль"
+
+#: src/Admin/SettingsPage.php:68
+msgid "Flag (country code)"
+msgstr "Прапор (код країни)"
+
+#: src/Admin/SettingsPage.php:78
+msgid "Add language"
+msgstr "Додати мову"
+
+#: src/Admin/SettingsPage.php:84
+msgid "Translatable content"
+msgstr "Контент для перекладу"
+
+#: src/Admin/SettingsPage.php:87
+msgid "Post types"
+msgstr "Типи записів"
+
+#: src/Admin/SettingsPage.php:91
+msgid "Taxonomies"
+msgstr "Таксономії"
+
+#: src/Admin/SettingsPage.php:96
+msgid "Behaviour"
+msgstr "Поведінка"
+
+#: src/Admin/SettingsPage.php:99
+msgid "Browser language"
+msgstr "Мова браузера"
+
+#: src/Admin/SettingsPage.php:103
+msgid ""
+"On the first visit to the home page, redirect to the language from the "
+"Accept-Language header"
+msgstr ""
+"При першому відвідуванні головної сторінки перенаправляти на мову із "
+"заголовка Accept-Language"
+
+#: src/Admin/SettingsPage.php:108
+msgid "On uninstall"
+msgstr "При видаленні"
+
+#: src/Admin/SettingsPage.php:112
+msgid "Delete all translations and settings when the plugin is deleted"
+msgstr "Видалити всі переклади й налаштування при видаленні плагіна"
+
+#: src/Admin/SettingsPage.php:121
+msgid "Export and import"
+msgstr "Експорт та імпорт"
+
+#: src/Admin/SettingsPage.php:122
+msgid ""
+"Translations only. Posts, terms and menu items are matched by slug on "
+"import, so the file works between environments."
+msgstr ""
+"Лише переклади. Записи, терміни й пункти меню при імпорті зіставляються за "
+"слагом, тому файл працює між різними середовищами."
+
+#: src/Admin/SettingsPage.php:123
+msgid "Download export (JSON)"
+msgstr "Завантажити експорт (JSON)"
+
+#: src/Admin/SettingsPage.php:128
+msgid "Replace existing translations of the matched items"
+msgstr "Замінити наявні переклади знайдених елементів"
+
+#: src/Admin/SettingsPage.php:129
+msgid "Dry run (only report)"
+msgstr "Пробний запуск (лише звіт)"
+
+#: src/Admin/SettingsPage.php:131
+msgid "Import"
+msgstr "Імпортувати"
+
+#: src/Admin/SettingsPage.php:150
+msgid "Move up"
+msgstr "Вгору"
+
+#: src/Admin/SettingsPage.php:151
+msgid "Move down"
+msgstr "Вниз"
+
+#: src/Admin/SettingsPage.php:152
+msgid "Remove"
+msgstr "Видалити"
+
+#. translators: %s: language code
+#: src/Core/Settings.php:77
+#, php-format
+msgid "Language code \"%s\" is reserved or duplicated and was skipped."
+msgstr "Код мови «%s» зарезервований або дублюється, тому пропущений."
+
+#: src/Core/Settings.php:95
+msgid "At least one valid language is required. Changes were not saved."
+msgstr "Потрібна принаймні одна коректна мова. Зміни не збережено."
+
+#: src/Editor/BlockEditor.php:101 src/Frontend/Switcher.php:156
+msgid "Language"
+msgstr "Мова"
+
+#: src/Editor/BlockEditor.php:102
+msgid "Saved. Showing the default language again."
+msgstr "Збережено. Знову показано мову за замовчуванням."
+
+#: src/Editor/ClassicEditor.php:69
+msgid "Content language"
+msgstr "Мова контенту"
+
+#: src/Frontend/Switcher.php:70 src/Frontend/SwitcherWidget.php:11
+#: assets/js/switcher-block.js:22
+msgid "Language switcher"
+msgstr "Перемикач мов"
+
+#: src/Frontend/SwitcherWidget.php:12
+msgid "Links to the other languages of the current page."
+msgstr "Посилання на інші мови поточної сторінки."
+
+#: src/Frontend/SwitcherWidget.php:32 assets/js/switcher-block.js:24
+msgid "Style"
+msgstr "Стиль"
+
+#: src/Frontend/SwitcherWidget.php:34 assets/js/switcher-block.js:27
+msgid "List"
+msgstr "Список"
+
+#: src/Frontend/SwitcherWidget.php:35 assets/js/switcher-block.js:28
+msgid "Dropdown"
+msgstr "Випадаючий список"
+
+#: src/Frontend/SwitcherWidget.php:39 assets/js/switcher-block.js:32
+msgid "Show flags"
+msgstr "Показувати прапори"
+
+#: src/Frontend/SwitcherWidget.php:40 assets/js/switcher-block.js:33
+msgid "Show names"
+msgstr "Показувати назви"
+
+#: src/Frontend/SwitcherWidget.php:41 assets/js/switcher-block.js:34
+msgid "Hide untranslated languages"
+msgstr "Ховати мови без перекладу"
+
+#: src/Integrations/Acf/Settings.php:24
+msgid "Translation"
+msgstr "Переклад"
+
+#: src/Integrations/Acf/Settings.php:25
+msgid ""
+"A translatable container (group, repeater, flexible content) translates "
+"everything inside it as one unit."
+msgstr ""
+"Контейнер, що перекладається (група, повторювач, гнучкий контент), "
+"перекладає весь вміст як одне ціле."
+
+#: src/Integrations/Acf/Settings.php:29
+msgid "Inherit from the field group"
+msgstr "Успадкувати від групи полів"
+
+#: src/Integrations/Acf/Settings.php:30
+msgid "Translatable"
+msgstr "Перекладається"
+
+#: src/Integrations/Acf/Settings.php:31
+msgid "Shared by all languages"
+msgstr "Спільне для всіх мов"
+
+#: src/Integrations/Acf/Settings.php:42
+msgid "Translatable fields"
+msgstr "Поля для перекладу"
+
+#: src/Integrations/Acf/Settings.php:43
+msgid ""
+"Make every field in this group translatable unless a field says otherwise "
+"(WebLorem Multilang Tabs)"
+msgstr ""
+"Робити всі поля цієї групи перекладними, якщо поле не вказує інше (WebLorem "
+"Multilang Tabs)"
+
+#: src/Tools/Importer.php:19
+msgid "Unsupported or missing export format."
+msgstr "Непідтримуваний або відсутній формат експорту."
+
+#: src/Integrations/Cf7/Cf7.php
+msgid "Translations"
+msgstr "Переклади"
+
+#. translators: %s: default language name
+#: src/Integrations/Cf7/Cf7.php
+#, php-format
+msgid "Leave a field empty to use the text of the default language (%s)."
+msgstr "Залиште поле порожнім, щоб використати текст мови за замовчуванням (%s)."
+
+#: src/Integrations/Cf7/Cf7.php
+msgid "Save the form first, then add the translations."
+msgstr "Спочатку збережіть форму, потім додайте переклади."
+
+#: src/Integrations/Cf7/Cf7.php
+msgid "Form"
+msgstr "Форма"
+
+#: src/Integrations/Cf7/Cf7.php
+msgid "Mail"
+msgstr "Пошта"
+
+#: src/Integrations/Cf7/Cf7.php
+msgid "Mail (2)"
+msgstr "Пошта (2)"
+
+#: src/Integrations/Cf7/Cf7.php
+msgid "Subject"
+msgstr "Тема"
+
+#: src/Integrations/Cf7/Cf7.php
+msgid "Message body"
+msgstr "Текст листа"
+
+#: src/Integrations/Cf7/Cf7.php
+msgid "Messages"
+msgstr "Повідомлення"
